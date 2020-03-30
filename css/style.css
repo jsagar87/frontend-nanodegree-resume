@@ -18,10 +18,16 @@ h6 {
   overflow: auto;
 }
 
-.education-entry,
+/* .education-entry,
 .work-entry,
 .project-entry {
   padding: 0 5%;
+} */
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 10px 5%;
 }
 
 h1 {
@@ -136,9 +142,21 @@ a {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+}
+
+/* Added by me*/
+#skills {
+  flex-direction: column;
+  padding: 0 0 0 0;
+}
+
+/* Added by me*/
+.flex-item{
+  padding: 0 0 10px 0;
 }
 
 .center-content {
